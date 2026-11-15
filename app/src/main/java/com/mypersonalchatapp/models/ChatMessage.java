@@ -1,4 +1,4 @@
-package com.mypersonalchatapp;
+package com.mypersonalchatapp.models;
 
 public class ChatMessage {
 

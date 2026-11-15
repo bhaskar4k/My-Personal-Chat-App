@@ -1,4 +1,4 @@
-package com.mypersonalchatapp;
+package com.mypersonalchatapp.models;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -7,6 +7,8 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.mypersonalchatapp.R;
 
 import java.util.ArrayList;
 import java.util.List;

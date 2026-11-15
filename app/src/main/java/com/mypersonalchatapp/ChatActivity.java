@@ -12,6 +12,9 @@ import androidx.core.view.WindowInsetsCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.mypersonalchatapp.models.ChatAdapter;
+import com.mypersonalchatapp.models.ChatMessage;
+
 public class ChatActivity extends AppCompatActivity {
 
     private ChatAdapter chatAdapter;

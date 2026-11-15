@@ -20,4 +20,6 @@
     <color name="landing_lavender">#E4DCFF</color>
     <color name="landing_cyan">#CDF1FF</color>
     <color name="landing_mint">#D4F5EA</color>
+
+    <color name="ic_launcher_background">#FFFFFF</color>
 </resources>

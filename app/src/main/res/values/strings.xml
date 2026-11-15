@@ -9,4 +9,8 @@
     <string name="type_message">Type a message…</string>
     <string name="send">Send</string>
     <string name="chat_greeting">Hi! Send a message to start chatting.</string>
+
+    <string name="error_server_unreachable">Couldn\'t reach the chat server. Please check it\'s running and try again.</string>
+    <string name="error_server_status">Chat server is unavailable (HTTP %1$d). Please try again later.</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
 </resources>

@@ -1,8 +1,10 @@
 package com.mypersonalchatapp;
 
+import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
@@ -29,6 +31,12 @@ public class MainActivity extends AppCompatActivity {
         backgroundAnimation = (AnimationDrawable) root.getBackground();
         backgroundAnimation.setEnterFadeDuration(2500);
         backgroundAnimation.setExitFadeDuration(2500);
+
+        // Onclick event to redirect to chatting page
+        TextView startButton = findViewById(R.id.startChattingButton);
+        startButton.setOnClickListener(v ->
+                startActivity(new Intent(this, ChatActivity.class))
+        );
     }
 
     @Override

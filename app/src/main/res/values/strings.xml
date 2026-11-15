@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Personal Chat App</string>
+
+    <string name="welcome_title">Welcome to your Chat</string>
+    <string name="welcome_subtitle">Talk with AI, anytime.</string>
+    <string name="start_chat">Start\nChatting</string>
+
+    <string name="chat_title">Chat</string>
+    <string name="type_message">Type a message…</string>
+    <string name="send">Send</string>
+    <string name="chat_greeting">Hi! Send a message to start chatting.</string>
+
+    <string name="error_server_unreachable">Couldn\'t reach the chat server. Please check it\'s running and try again.</string>
+    <string name="error_server_status">Chat server is unavailable (HTTP %1$d). Please try again later.</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+</resources>

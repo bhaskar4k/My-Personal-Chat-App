@@ -15,4 +15,9 @@
     <color name="on_background">#1A1C1E</color>
     <color name="surface">#FFFFFF</color>
     <color name="on_surface">#1A1C1E</color>
+
+    <color name="landing_blue">#D3E4FF</color>
+    <color name="landing_lavender">#E4DCFF</color>
+    <color name="landing_cyan">#CDF1FF</color>
+    <color name="landing_mint">#D4F5EA</color>
 </resources>

@@ -13,11 +13,11 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="160dp"
-        android:layout_height="160dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
         android:contentDescription="@string/app_name"
         android:scaleType="fitCenter"
-        app:srcCompat="@drawable/ic_launcher_foreground"
+        app:srcCompat="@drawable/app_logo"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@id/textView"
         app:layout_constraintStart_toStartOf="parent"
@@ -56,7 +56,7 @@
         android:id="@+id/startChattingButton"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="100dp"
         android:layout_marginBottom="48dp"
         android:background="@drawable/bg_circle_button"
         android:gravity="center"
